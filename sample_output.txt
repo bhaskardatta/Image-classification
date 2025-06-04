@@ -1,0 +1,33 @@
+CIFAR-10 Neural Network Evaluation Report
+=============================================
+
+Overall Test Accuracy: 0.5476 (54.76%)
+
+Per-Class Metrics:
+--------------------------------------------------
+    airplane: Precision=0.662, Recall=0.706, F1=0.683, Support=1000
+  automobile: Precision=0.694, Recall=0.854, F1=0.766, Support=1000
+        bird: Precision=0.604, Recall=0.299, F1=0.400, Support=1000
+         cat: Precision=0.389, Recall=0.846, F1=0.533, Support=1000
+        deer: Precision=0.943, Recall=0.033, F1=0.064, Support=1000
+
+Average Metrics:
+------------------------------
+Macro avg:    Precision=0.658, Recall=0.548, F1=0.489
+Weighted avg: Precision=0.658, Recall=0.548, F1=0.489
+
+Confusion Matrix:
+[[706  73  88  85  48]
+ [ 32 854   8 105   1]
+ [157  67 299 476   1]
+ [ 61  64  29 846   0]
+ [110  64 141 652  33]]
+
+Model Confidence Analysis:
+--------------------------
+Average confidence: 0.723
+Minimum confidence: 0.201
+Maximum confidence: 0.999
+
+Correct predictions average confidence: 0.814
+Incorrect predictions average confidence: 0.592
